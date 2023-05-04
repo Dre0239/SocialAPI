@@ -1,0 +1,27 @@
+{
+  "name": "18.socialnetwork",
+  "version": "1.0.0",
+  "description": "18 Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "Jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/Dre0239/SocialAPI"
+  },
+  "author": "Andre Mays",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/Dre0239/SocialAPI"
+  },
+  "homepage": "https://https://github.com/Dre0239/SocialAPI",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
