@@ -33,3 +33,6 @@
   npm install
 
   npm start or node server.js
+
+    ## ResourcesTroubleshooting
+  [Help On Error Route.post](I received assistance from askBCS learning assistance staff with troubleshooting the code.)
