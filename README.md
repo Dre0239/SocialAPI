@@ -1,7 +1,8 @@
-# SocialAPI
+# Module 18 Challenge NoSQL Challenge: Social Network API
 
 ## Social Network API
-  `User Story`
+
+# User Story
 
     AS A social media startup
 
