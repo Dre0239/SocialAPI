@@ -17,7 +17,7 @@ const UserController = {
       .then((dbUserData) => {
         // If no user is found, send 404
         if (!dbUserData) {
-          res.status(404).json({ message: "No User found with this id!" });
+          res.status(404).json({ message: "No User found with the id!" });
           return;
         }
         res.json(dbUserData);
@@ -38,7 +38,7 @@ const UserController = {
     User.findOneAndUpdate({ _id: params.id }, body, { new: true })
       .then((dbUserData) => {
         if (!dbUserData) {
-          res.status(404).json({ message: "No User found with this id!" });
+          res.status(404).json({ message: "No User found with the id!" });
           return;
         }
         res.json(dbUserData);
@@ -50,7 +50,7 @@ const UserController = {
     User.findOneAndDelete({ _id: params.id })
       .then((dbUserData) => {
         if (!dbUserData) {
-          res.status(404).json({ message: "No User found with this id!" });
+          res.status(404).json({ message: "No User found with the id!" });
           return;
         }
         res.json(dbUserData);
