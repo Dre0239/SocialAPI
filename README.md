@@ -37,3 +37,5 @@
 
     ## ResourcesTroubleshooting
   [Help On Error Route.post](I received assistance from askBCS learning assistance staff with troubleshooting the code.)
+
+  [Help On with Insomnia for Testing] (I received assistance from the class TA regarding using insomnia to properly test post, get, delete etc.)
